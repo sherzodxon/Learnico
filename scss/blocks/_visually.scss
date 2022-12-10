@@ -1,7 +1,16 @@
-.visually{
+
+ .visually {
     position: relative;
+    transition: 1900ms ease-out all;
 }
+.visually-none{
+    transition: 1900ms ease-out all;
+    display: none;
+}
+
 .visually-title {
+    font-family: 'DM Sans';
+    font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -9,12 +18,13 @@
     text-align: center;
     padding: 12px 0px;
 }
-.visually-button{
+
+.visually-button {
     width: 32px;
     height: 32px;
     border: none;
     background-color: transparent;
-    background: url(/img/close.svg) no-repeat center  center;
+    background: url(/img/close.svg) no-repeat center center;
     cursor: pointer;
     margin-left: auto;
     position: absolute;
