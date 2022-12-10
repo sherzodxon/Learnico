@@ -1,0 +1,23 @@
+.visually{
+    position: relative;
+}
+.visually-title {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4B5563;
+    text-align: center;
+    padding: 12px 0px;
+}
+.visually-button{
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: transparent;
+    background: url(/img/close.svg) no-repeat center  center;
+    cursor: pointer;
+    margin-left: auto;
+    position: absolute;
+    top: 8px;
+    right: 40px;
+}
