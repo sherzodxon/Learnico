@@ -593,4 +593,85 @@ ol {
   font-size: 16px;
   line-height: 24px;
   color: #4B5563;
+}
+
+.benefits {
+  margin-top: 191px;
+}
+
+.benefits-info {
+  background: rgb(252, 216, 202);
+  width: 71px;
+  margin-bottom: 11px;
+}
+
+.benefits-title {
+  width: 691px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.benefits-text {
+  text-align: center;
+  width: 730px;
+  margin: 0 auto;
+  margin-top: 28px;
+}
+
+.benefits-items-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 79px;
+  margin-bottom: 93px;
+  align-items: center;
+}
+
+.benefits-item {
+  padding-top: 72px;
+  position: relative;
+}
+.benefits-item::after {
+  width: 48px;
+  height: 48px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  right: calc(50% - 24px);
+}
+.benefits-item:nth-child(1)::after {
+  background: url(../../img/benef1.svg) no-repeat center center;
+}
+.benefits-item:nth-child(2) {
+  margin-top: 63px;
+}
+.benefits-item:nth-child(2)::after {
+  background: url(../../img/browse1.svg) no-repeat center center;
+}
+
+.benefits-item-title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 230px;
+}
+
+.benefits-item-text {
+  width: 237px;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #4B5563;
+}
+
+.benefits-link {
+  display: block;
+  width: 135px;
+  margin: 0 auto;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
