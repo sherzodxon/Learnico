@@ -91,6 +91,40 @@ ul, ol {
   cursor: pointer;
 }
 
+.icon-links {
+  background-color: transparent;
+  padding-right: 28px;
+  padding-left: 0;
+  margin-left: 16px;
+  position: relative;
+  color: rgb(31, 41, 55);
+}
+.icon-links::after {
+  position: absolute;
+  width: 24px;
+  height: 36px;
+  content: "";
+  right: 0;
+  top: 5px;
+}
+
+.links-wrapper {
+  height: 50px;
+}
+
+.card {
+  background-color: #fff;
+  color: rgb(31, 41, 55);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 4px 8px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
 .container {
   width: 1300px;
   margin: 0 auto;
@@ -261,19 +295,9 @@ ul, ol {
 }
 
 .intro-links-transp {
-  background-color: transparent;
-  padding-right: 28px;
-  padding-left: 0;
-  margin-left: 16px;
-  position: relative;
+  color: #fff;
 }
 .intro-links-transp::after {
-  position: absolute;
-  width: 24px;
-  height: 36px;
-  content: "";
-  right: 0;
-  top: 5px;
   background: url(../../img/play_circle_filled.svg) no-repeat center center;
 }
 
@@ -330,17 +354,6 @@ ul, ol {
 
 .absolute-about {
   width: 77px;
-  background-color: #fff;
-  color: rgb(31, 41, 55);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
-  padding: 4px 8px;
-  text-align: center;
-  margin: 0 auto;
-  cursor: auto;
-  margin-bottom: 15px;
-  border-radius: 4px;
 }
 
 .absolute-title {
@@ -355,4 +368,44 @@ ul, ol {
   width: 730px;
   margin: 0 auto;
   margin-bottom: 52px;
+}
+
+.leaders {
+  margin-top: 160px;
+}
+
+.leaders-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leaders-item:first-child {
+  margin-bottom: 128px;
+}
+.leaders-item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.leaders-item-title {
+  width: 547px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.leaders-item-text {
+  width: 574px;
+  margin-top: 28px;
+  margin-bottom: 51px;
+}
+
+.leaders-item-img {
+  border-radius: 24px;
+}
+
+.leaders-item-links-icon::after {
+  background: url(../../img/chevron_right.svg) no-repeat center center;
 }/*# sourceMappingURL=main.css.map */

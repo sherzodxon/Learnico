@@ -53,3 +53,35 @@ border-radius: 8px;
 cursor: pointer;
 
 }
+.icon-links{
+  background-color: transparent;
+  padding-right: 28px;
+  padding-left: 0;
+  margin-left: 16px;
+  position: relative;
+  color: rgba(31, 41, 55, 1);
+
+  &::after {
+      position: absolute;
+      width: 24px;
+      height: 36px;
+      content: '';
+      right: 0;
+      top: 5px;
+  }
+}
+.links-wrapper{
+  height: 50px;
+}
+.card{
+  background-color: #fff;
+  color: rgba(31, 41, 55, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 4px 8px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}

@@ -53,19 +53,8 @@
 }
 
 .intro-links-transp {
-    background-color: transparent;
-    padding-right: 28px;
-    padding-left: 0;
-    margin-left: 16px;
-    position: relative;
-
-    &::after {
-        position: absolute;
-        width: 24px;
-        height: 36px;
-        content: '';
-        right: 0;
-        top: 5px;
+    color: #fff;
+    &::after{
         background: url(../../img/play_circle_filled.svg) no-repeat center center;
     }
 }
