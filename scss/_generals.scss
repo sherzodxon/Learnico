@@ -6,7 +6,7 @@
 
 body {
   width: 1440px;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 0;
   font-family: "Dm Sans", sans-serif;
   color: rgba(31, 41, 55, 1);
@@ -21,10 +21,17 @@ img {
 a {
   text-decoration: none;
 }
-h1,h2,h3,h4,p{
+
+h1,
+h2,
+h3,
+h4,
+p {
   margin: 0;
 }
-ul,ol{
+
+ul,
+ol {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -39,21 +46,23 @@ ul,ol{
   white-space: nowrap;
   width: 1px;
 }
-.links{
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-background: rgba(31, 41, 55, 1);
-padding: 13px 25px;
-color: white;
-border-radius: 8px;
-cursor: pointer;
+
+.links {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  background: rgba(31, 41, 55, 1);
+  padding: 13px 25px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
 
 }
-.icon-links{
+
+.icon-links {
   background-color: transparent;
   padding-right: 28px;
   padding-left: 0;
@@ -62,18 +71,20 @@ cursor: pointer;
   color: rgba(31, 41, 55, 1);
 
   &::after {
-      position: absolute;
-      width: 24px;
-      height: 36px;
-      content: '';
-      right: 0;
-      top: 5px;
+    position: absolute;
+    width: 24px;
+    height: 36px;
+    content: '';
+    right: 0;
+    top: 5px;
   }
 }
-.links-wrapper{
+
+.links-wrapper {
   height: 50px;
 }
-.card{
+
+.card {
   background-color: #fff;
   color: rgba(31, 41, 55, 1);
   font-weight: 400;
@@ -84,4 +95,20 @@ cursor: pointer;
   margin: 0 auto;
   margin-bottom: 15px;
   border-radius: 4px;
+}
+
+.title {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0em;
+
+}
+.text{
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #4B5563;
+
 }

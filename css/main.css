@@ -56,11 +56,16 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
   margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -123,6 +128,21 @@ ul, ol {
   margin: 0 auto;
   margin-bottom: 15px;
   border-radius: 4px;
+}
+
+.title {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0em;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4B5563;
 }
 
 .container {
@@ -408,4 +428,87 @@ ul, ol {
 
 .leaders-item-links-icon::after {
   background: url(../../img/chevron_right.svg) no-repeat center center;
+}
+
+.courses {
+  margin-top: 128px;
+}
+
+.courses-info {
+  width: 76px;
+  background: #FCD8CA;
+}
+
+.courses-title {
+  text-align: center;
+  margin-top: 11px;
+  margin-bottom: 29px;
+}
+
+.courses-text {
+  width: 730px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.courses-list {
+  margin-top: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.courses-item {
+  background: #00353B;
+  border-radius: 16px;
+  color: #fff;
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-bottom: 41px;
+  width: 405px;
+  height: 500px;
+  position: relative;
+}
+.courses-item::after {
+  position: absolute;
+  width: 209px;
+  height: 270px;
+  content: "";
+  bottom: 0;
+  right: 0;
+}
+.courses-item:nth-child(1)::after {
+  background: url(../../img/child1.png) no-repeat center center;
+}
+.courses-item:nth-child(2)::after {
+  background: url(../../img/child2.png) no-repeat center center;
+}
+.courses-item:nth-child(3)::after {
+  background: url(../../img/child3.png) no-repeat center center;
+}
+
+.courses-item-info {
+  width: 77px;
+  margin-left: 0px;
+  margin-bottom: 16px;
+}
+
+.courses-item-title {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  margin-bottom: 15px;
+}
+
+.courses-item-link {
+  position: absolute;
+  bottom: 32px;
+  background: rgb(34, 164, 90);
+  padding: 9px 21px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 8px;
 }/*# sourceMappingURL=main.css.map */
