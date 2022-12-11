@@ -8,7 +8,7 @@ body {
   width: 1440px;
   margin: 0 auto; 
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Dm Sans", sans-serif;
   color: rgba(31, 41, 55, 1);
 
 }
@@ -21,7 +21,7 @@ img {
 a {
   text-decoration: none;
 }
-h1,h2,h3,h4{
+h1,h2,h3,h4,p{
   margin: 0;
 }
 ul,ol{
@@ -46,14 +46,10 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 text-align: center;
-border: 1px solid rgba(31, 41, 55, 1);
 background: rgba(31, 41, 55, 1);
 padding: 13px 25px;
 color: white;
 border-radius: 8px;
 cursor: pointer;
-&:hover{
-  background-color: #fff;
-  color: rgba(31, 41, 55, 1);
-}
+
 }

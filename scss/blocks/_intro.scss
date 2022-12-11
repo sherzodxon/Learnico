@@ -1,0 +1,110 @@
+.intro {
+    background: rgba(0, 53, 59, 1);
+    color: #fff;
+    padding-top: 48px;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.intro-text-wrapper {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        width: 209px;
+        height: 250px;
+        content: '';
+        background: url(../../img/bg-after.png) no-repeat center center;
+        z-index: 3;
+        bottom: 78px;
+        right: -188px;
+    }
+}
+
+.intro-title {
+    font-family: "Poppins";
+    width: 598px;
+    margin-top: 115px;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 67px;
+}
+
+.intro-text {
+    margin-top: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 586px;
+}
+
+.intro-links-wrapper {
+    margin-top: 39px;
+}
+
+.intro-links-green {
+    background: rgba(34, 164, 90, 1);
+}
+
+.intro-links-transp {
+    background-color: transparent;
+    padding-right: 28px;
+    padding-left: 0;
+    margin-left: 16px;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        width: 24px;
+        height: 36px;
+        content: '';
+        right: 0;
+        top: 5px;
+        background: url(../../img/play_circle_filled.svg) no-repeat center center;
+    }
+}
+
+.intro-review-wrapper {
+    margin-top: 63px;
+    display: flex;
+}
+
+.intro-user-img {
+    width: 160px;
+    height: 48px;
+}
+
+.intro-rating-wrapper {
+    margin-left: 18px;
+}
+
+.intro-rating-status {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.intro-rating-status {
+    width: 132px;
+    height: 24px;
+}
+
+.intro-bg-img {
+    width: 600px;
+    height: 640px;
+    border-radius: 24px;
+}
+
+.intro-bottom-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    padding-bottom: 395px;
+}
