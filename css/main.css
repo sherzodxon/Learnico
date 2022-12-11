@@ -542,4 +542,55 @@ ol {
   margin-top: 28px;
   width: 480px;
   margin-bottom: 52px;
+}
+
+.browse {
+  margin-top: 80px;
+}
+
+.browse-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-item {
+  padding-top: 80px;
+  position: relative;
+}
+.browse-item::after {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  content: "";
+  background: rgb(21, 142, 94);
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+.browse-item:nth-child(1)::after {
+  background: url(../../img/browse1.svg);
+}
+.browse-item:nth-child(2)::after {
+  background: url(../../img/browse2.svg);
+}
+.browse-item:nth-child(3)::after {
+  background: url(../../img/browse3.svg);
+}
+
+.browse-item-title {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  color: rgb(31, 41, 55);
+}
+
+.browse-item-text {
+  width: 378px;
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4B5563;
 }/*# sourceMappingURL=main.css.map */
