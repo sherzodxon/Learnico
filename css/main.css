@@ -60,6 +60,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p {
   margin: 0;
 }
@@ -912,7 +913,7 @@ ol {
 .today-links-wrapper {
   width: 283px;
   margin: 0 auto;
-  padding-bottom: 91px;
+  padding-bottom: 78px;
   margin-top: 41px;
 }
 
@@ -920,4 +921,120 @@ ol {
   margin-left: 10px;
   background-color: #fff;
   color: rgb(0, 53, 59);
+}
+
+.footer {
+  background: rgb(0, 53, 59);
+  padding-top: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-first-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 72px;
+}
+
+.footer-form-wrapper {
+  width: 400px;
+  margin-bottom: 70px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 80px;
+  margin-right: 67px;
+}
+
+.form-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+
+.footer-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-button {
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+  background: rgb(34, 164, 90);
+  padding: 13px 25px;
+}
+
+.form-input {
+  border-radius: 8px;
+  width: 260px;
+  margin-right: 16px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: none;
+}
+.form-input:focus {
+  font-family: "DM Sans";
+  outline: 2px solid rgb(34, 164, 90);
+  color: rgb(34, 164, 90);
+}
+
+.form-text {
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 19px;
+  text-align: left;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-item-title {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.footer-item-text {
+  display: inline;
+  text-align: left;
+  margin-bottom: 16px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.footer-hr {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.08);
+  width: 1280px;
+  height: 1px;
+  border: none;
+  margin: 0 auto;
+}
+
+.footer-second-container {
+  padding-top: 37px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-discover {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
 }/*# sourceMappingURL=main.css.map */
