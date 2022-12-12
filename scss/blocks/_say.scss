@@ -1,6 +1,6 @@
 .say {
-    margin-top: 141px;
-   
+    margin-top: 125px;
+   margin-bottom: 20px;
 }
 
 .say-container {
@@ -51,6 +51,7 @@
     height: 328px;
 
     &:first-child {
+        width: 368px;
         padding-left: 0;
         border-radius: 0px 16px 16px 0px;
     }
@@ -61,8 +62,9 @@
     &:last-child{
         margin-right: 48px;
         position: relative;
+        
         &::after{
-            width: 32px;
+            width: 16px;
             height: 100%;
             position: absolute;
             background: #fff;
@@ -70,6 +72,8 @@
             right: -48px;
             top: 0;
             border-radius: 16px 0px 0px 16px;
+            overflow: hidden;
+            z-index: 0;
         }
     }
 }
@@ -80,15 +84,28 @@
     font-size: 17px;
     line-height: 27px;
     color: #1F2937;
-    margin-top: 33px;
+    margin-top: 27px;
+}
+.say-item{
+    &:nth-child(2){
+        .say-user-wrapper{
+            margin-top: 31px;
+        }
+    }
 }
 .say-user-wrapper{
     display: flex;
-    margin-top: 31px;
+    margin-top: 55px;
     align-items: center;
 }
 .say-user-text-wrapper{
     margin-left: 16px;
+}
+
+.say-user-name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 .say-user-job{
     font-weight: 400;

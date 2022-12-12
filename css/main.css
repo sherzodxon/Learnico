@@ -171,6 +171,7 @@ ol {
   color: #4B5563;
   text-align: center;
   padding: 12px 0px;
+  padding-right: 15px;
 }
 
 .visually-button {
@@ -199,13 +200,13 @@ ol {
 }
 
 .header-nav {
-  padding-left: 446px;
+  padding-left: 437px;
 }
 
 .header-nav-list {
   width: 383px;
   display: flex;
-  padding: 21px 23px 21px 13px;
+  padding: 20px 23px 21px 13px;
   justify-content: space-between;
 }
 
@@ -243,13 +244,13 @@ ol {
   top: 2px;
 }
 .header-inst-button:nth-child(1) {
-  margin-right: 25px;
+  margin-right: 19px;
 }
 .header-inst-button:nth-child(1)::after {
   background: url(../../img/search.svg) no-repeat center center;
 }
 .header-inst-button:nth-child(2) {
-  margin-right: 24px;
+  margin-right: 20px;
 }
 .header-inst-button:nth-child(2)::after {
   background: url(../../img/shopping_cart.svg) no-repeat center center;
@@ -262,6 +263,16 @@ ol {
   border-radius: 8px;
 }
 
+.header-nav-item {
+  margin-right: 24px;
+}
+.header-nav-item:last-child {
+  margin-right: 0;
+}
+.header-nav-item:nth-child(3) {
+  margin-right: 29px;
+}
+
 .intro {
   background: rgb(0, 53, 59);
   color: #fff;
@@ -271,7 +282,7 @@ ol {
 .intro-container {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 80px;
+  padding-bottom: 82px;
 }
 
 .intro-text-wrapper {
@@ -298,7 +309,7 @@ ol {
 }
 
 .intro-text {
-  margin-top: 30px;
+  margin-top: 35px;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
@@ -308,7 +319,7 @@ ol {
 }
 
 .intro-links-wrapper {
-  margin-top: 39px;
+  margin-top: 46px;
 }
 
 .intro-links-green {
@@ -362,19 +373,23 @@ ol {
 }
 
 .absolute {
-  margin-top: -213px;
+  margin: 0 auto;
+  margin-top: -230px;
 }
 
 .absolute-container {
+  width: 1280px;
   background: rgb(252, 216, 202);
   border-radius: 24px;
+  padding: 0;
   padding-top: 64px;
-  padding-bottom: 64px;
+  padding-bottom: 76px;
   text-align: center;
 }
 
 .absolute-about {
   width: 77px;
+  margin-bottom: 11px;
 }
 
 .absolute-title {
@@ -388,7 +403,12 @@ ol {
 .absolute-text {
   width: 730px;
   margin: 0 auto;
-  margin-bottom: 52px;
+  margin-bottom: 48px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 .leaders {
@@ -407,6 +427,10 @@ ol {
   flex-direction: row-reverse;
 }
 
+.leadres-item-text-wrapper {
+  margin-top: 10px;
+}
+
 .leaders-item-title {
   width: 547px;
   font-family: Poppins;
@@ -420,15 +444,26 @@ ol {
 .leaders-item-text {
   width: 574px;
   margin-top: 28px;
-  margin-bottom: 51px;
+  margin-bottom: 45px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
 }
 
 .leaders-item-img {
   border-radius: 24px;
 }
 
+.leaders-item-links-icon {
+  margin-left: 10px;
+}
 .leaders-item-links-icon::after {
   background: url(../../img/chevron_right.svg) no-repeat center center;
+}
+
+.leaders-second-links {
+  margin-bottom: 30px;
 }
 
 .courses {
@@ -453,7 +488,7 @@ ol {
 }
 
 .courses-list {
-  margin-top: 63px;
+  margin-top: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -503,6 +538,14 @@ ol {
   margin-bottom: 15px;
 }
 
+.courses-item-price {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 .courses-item-link {
   position: absolute;
   bottom: 32px;
@@ -525,8 +568,11 @@ ol {
   background: #FCD8CA;
   border-radius: 24px 0px 0px 24px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+}
+
+.join-text-wrapper {
+  margin-top: 64px;
 }
 
 .join-info {
@@ -542,11 +588,22 @@ ol {
 .join-text {
   margin-top: 28px;
   width: 480px;
-  margin-bottom: 52px;
+  margin-bottom: 48px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .browse {
   margin-top: 80px;
+}
+
+.browse-container {
+  width: 1280px;
+  padding: 0;
+  padding-right: 17px;
 }
 
 .browse-list {
@@ -617,18 +674,23 @@ ol {
   width: 730px;
   margin: 0 auto;
   margin-top: 28px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 .benefits-items-wrapper {
   display: flex;
   justify-content: space-between;
   margin-top: 79px;
-  margin-bottom: 93px;
+  margin-bottom: 80px;
   align-items: center;
+  padding: 0 52px;
 }
 
 .benefits-item {
   padding-top: 72px;
+  padding-left: 5px;
   position: relative;
 }
 .benefits-item::after {
@@ -677,8 +739,13 @@ ol {
   text-align: center;
 }
 
+.benefits-second-title {
+  padding-left: 5px;
+}
+
 .say {
-  margin-top: 141px;
+  margin-top: 125px;
+  margin-bottom: 20px;
 }
 
 .say-container {
@@ -728,6 +795,7 @@ ol {
   height: 328px;
 }
 .say-item:first-child {
+  width: 368px;
   padding-left: 0;
   border-radius: 0px 16px 16px 0px;
 }
@@ -739,7 +807,7 @@ ol {
   position: relative;
 }
 .say-item:last-child::after {
-  width: 32px;
+  width: 16px;
   height: 100%;
   position: absolute;
   background: #fff;
@@ -747,6 +815,8 @@ ol {
   right: -48px;
   top: 0;
   border-radius: 16px 0px 0px 16px;
+  overflow: hidden;
+  z-index: 0;
 }
 
 .say-item-text {
@@ -755,17 +825,27 @@ ol {
   font-size: 17px;
   line-height: 27px;
   color: #1F2937;
-  margin-top: 33px;
+  margin-top: 27px;
+}
+
+.say-item:nth-child(2) .say-user-wrapper {
+  margin-top: 31px;
 }
 
 .say-user-wrapper {
   display: flex;
-  margin-top: 31px;
+  margin-top: 55px;
   align-items: center;
 }
 
 .say-user-text-wrapper {
   margin-left: 16px;
+}
+
+.say-user-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .say-user-job {
@@ -787,7 +867,7 @@ ol {
 
 .posts {
   position: relative;
-  margin-top: 518px;
+  margin-top: 520px;
   color: #fff;
   z-index: -1;
 }
@@ -796,10 +876,10 @@ ol {
   position: absolute;
   width: 100%;
   padding: 0 80px;
-  padding-top: 522px;
+  padding-top: 518px;
   padding-bottom: 128px;
   background-color: rgb(0, 53, 59);
-  bottom: -525px;
+  bottom: -535px;
 }
 
 .posts-info {
@@ -811,8 +891,7 @@ ol {
 .posts-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 75px;
 }
 
 .posts-title {
@@ -822,6 +901,7 @@ ol {
   line-height: 58px;
   letter-spacing: 0em;
   text-align: left;
+  padding-bottom: 10px;
 }
 
 .posts-link {
@@ -830,12 +910,15 @@ ol {
   line-height: 24px;
   color: #1F2937;
   background: #fff;
+  height: 50px;
+  margin-top: 10px;
 }
 
 .posts-list {
   display: flex;
   justify-content: space-between;
-  vertical-align: top;
+  vertical-align: bottom;
+  margin-bottom: 11px;
 }
 
 .posts-item {
@@ -846,15 +929,20 @@ ol {
 }
 
 .posts-item-info {
-  display: inline;
+  display: inline-block;
   padding: 4px 8px;
   background: rgb(170, 222, 168);
   border-radius: 4px;
   margin-left: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .posts-item-img {
-  margin-bottom: 24px;
+  margin-bottom: 15px;
 }
 
 .posts-item-title {
@@ -875,7 +963,8 @@ ol {
   color: #4B5563;
   padding-left: 24px;
   width: 355px;
-  margin-bottom: 64px;
+  margin-bottom: 60px;
+  margin-top: 8px;
 }
 
 .last-item-post {
@@ -886,15 +975,21 @@ ol {
   margin-left: 24px;
   position: relative;
   margin-bottom: 32px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 .posts-item-link::after {
   position: absolute;
   background: url(../../img/chevron_right.svg) no-repeat top center;
-  top: 8px;
+  top: 5px;
 }
 
 .today {
-  margin-top: 1028px;
+  margin-top: 1038px;
   background: rgb(0, 53, 59);
   color: white;
 }

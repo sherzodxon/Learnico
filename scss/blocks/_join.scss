@@ -9,8 +9,10 @@
     background: #FCD8CA;
     border-radius: 24px 0px 0px 24px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+}
+.join-text-wrapper{
+    margin-top: 64px;
 }
 .join-info{
     width: 63px;
@@ -24,5 +26,12 @@
 .join-text{
     margin-top: 28px;
     width: 480px;
-    margin-bottom: 52px;
+    margin-bottom: 48px;
+  
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+
 }
