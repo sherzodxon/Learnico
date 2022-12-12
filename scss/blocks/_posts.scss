@@ -1,0 +1,102 @@
+.posts {
+    position: relative;
+    margin-top: 518px;
+    color: #fff;
+    z-index: -1;
+}
+
+.posts-container {
+    position: absolute;
+    width: 100%;
+    padding: 0 80px;
+    padding-top: 522px;
+    padding-bottom: 128px;
+    background-color: rgba(0, 53, 59, 1);
+    bottom: -525px
+}
+
+.posts-info {
+    width: 45px;
+    margin-left: 0;
+    margin-bottom: 11px;
+}
+
+.posts-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.posts-title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.posts-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F2937;
+    background: #fff;
+}
+.posts-list{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+}
+.posts-item{
+    width: 405px;
+    background-color: #fff;
+    color: #1F2937;
+    padding-bottom: 31px;
+}
+.posts-item-info{
+    display: inline;
+    padding: 4px 8px;
+    background: rgba(170, 222, 168, 1);
+    border-radius: 4px;
+    margin-left: 24px;
+    
+}
+.posts-item-img{
+    margin-bottom: 24px;
+}
+.posts-item-title{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+padding-left: 24px;
+width: 310px;
+margin-top: 8px;
+}
+.posts-item-text{
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #4B5563;
+padding-left: 24px;
+width: 355px;
+margin-bottom: 64px;
+
+}
+.last-item-post{
+    margin-bottom: 31px;
+}
+
+.posts-item-link{
+margin-left: 24px;
+position: relative;
+margin-bottom: 32px;
+&::after{
+    position: absolute;
+    background: url(../../img/chevron_right.svg) no-repeat top center;
+    top: 8px;
+}
+}
