@@ -45,10 +45,11 @@
 }
 
 .intro-links-wrapper {
-    margin-top: 46px;
+    margin-top: 48px;
 }
 
 .intro-links-green {
+    padding: 14px 25px;
     background: rgba(34, 164, 90, 1);
 }
 
@@ -60,7 +61,7 @@
 }
 
 .intro-review-wrapper {
-    margin-top: 63px;
+    margin-top: 60px;
     display: flex;
 }
 
@@ -70,18 +71,19 @@
 }
 
 .intro-rating-wrapper {
-    margin-left: 18px;
+    margin-left: 16px;
 }
 
 .intro-rating-status {
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 13px;
 }
 
 .intro-rating-status {
     width: 132px;
     height: 24px;
+    margin-bottom: 4px;
 }
 
 .intro-bg-img {
