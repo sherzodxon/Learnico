@@ -890,4 +890,34 @@ ol {
   position: absolute;
   background: url(../../img/chevron_right.svg) no-repeat top center;
   top: 8px;
+}
+
+.today {
+  margin-top: 1028px;
+  background: rgb(0, 53, 59);
+  color: white;
+}
+
+.today-title {
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.today-text {
+  width: 730px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.today-links-wrapper {
+  width: 283px;
+  margin: 0 auto;
+  padding-bottom: 91px;
+  margin-top: 41px;
+}
+
+.today-link-white {
+  margin-left: 10px;
+  background-color: #fff;
+  color: rgb(0, 53, 59);
 }/*# sourceMappingURL=main.css.map */
