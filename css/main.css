@@ -674,4 +674,109 @@ ol {
   width: 135px;
   margin: 0 auto;
   text-align: center;
+}
+
+.say {
+  margin-top: 141px;
+}
+
+.say-container {
+  padding: 0;
+  width: 1280px;
+  background: rgb(252, 216, 202);
+  padding-top: 100px;
+  border-radius: 24px;
+}
+
+.say-info {
+  width: 101px;
+  margin-bottom: 11px;
+}
+
+.say-title {
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.say-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #4B5563;
+  width: 730px;
+  margin: 0 auto;
+}
+
+.say-list {
+  margin-top: 79px;
+  padding-bottom: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.say-item {
+  background: #fff;
+  border-radius: 16px;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  padding-right: 37px;
+}
+.say-item:first-child {
+  padding-left: 0;
+  border-radius: 0px 16px 16px 0px;
+}
+.say-item:nth-child(2) {
+  padding-right: 32px;
+}
+.say-item:last-child {
+  margin-right: 48px;
+  position: relative;
+}
+.say-item:last-child::after {
+  width: 32px;
+  height: 100%;
+  position: absolute;
+  background: #fff;
+  content: "";
+  right: -60px;
+  top: 0;
+  border-radius: 16px 0px 0px 16px;
+}
+
+.say-item-text {
+  width: 331px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #1F2937;
+  margin-top: 33px;
+}
+
+.say-user-wrapper {
+  display: flex;
+  margin-top: 31px;
+  align-items: center;
+}
+
+.say-user-text-wrapper {
+  margin-left: 16px;
+}
+
+.say-user-job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6B7280;
+  width: 228px;
+}
+
+.log-job {
+  width: 181px;
+}
+
+.say-user-img {
+  width: 48px;
+  height: 48px;
 }/*# sourceMappingURL=main.css.map */
